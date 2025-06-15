@@ -118,3 +118,49 @@
 {"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T08:25:25.604Z"}
 {"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T08:25:35.588Z"}
 {"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T08:25:36.615Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:13:15.478Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T09:13:16.512Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T09:15:04.494Z"}
+{"level":"info","message":"Request body : {\"email\":\"arceus@gmail.com\",\"password\":\"arceus@gmail.com\"}","service":"auth-service","timestamp":"2025-06-15T09:15:04.496Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T09:15:04.531Z"}
+{"0":"\"","1":"u","10":" ","11":"i","12":"s","13":" ","14":"r","15":"e","16":"q","17":"u","18":"i","19":"r","2":"s","20":"e","21":"d","3":"e","4":"r","5":"n","6":"a","7":"m","8":"e","9":"\"","level":"warn","message":"Error while validating fields","service":"auth-service","timestamp":"2025-06-15T09:15:04.547Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"auth-service","timestamp":"2025-06-15T09:15:20.124Z"}
+{"level":"info","message":"Request body : {\"email\":\"arceus@gmail.com\",\"password\":\"arceus@gmail.com\"}","service":"auth-service","timestamp":"2025-06-15T09:15:20.125Z"}
+{"level":"info","message":"Login endpoint hit...","service":"auth-service","timestamp":"2025-06-15T09:15:20.129Z"}
+{"level":"error","message":"Error while Loging user User.comparePassword is not a function","service":"auth-service","stack":"TypeError: User.comparePassword is not a function\n    at loginUser (file:///E:/Web%20development/Node/Part-2/4.microservices/auth-service/src/controller/auth-controller.js:79:32)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-15T09:15:20.269Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:15:57.325Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T09:15:58.401Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"auth-service","timestamp":"2025-06-15T09:16:02.217Z"}
+{"level":"info","message":"Request body : {\"email\":\"arceus@gmail.com\",\"password\":\"arceus@gmail.com\"}","service":"auth-service","timestamp":"2025-06-15T09:16:02.217Z"}
+{"level":"info","message":"Login endpoint hit...","service":"auth-service","timestamp":"2025-06-15T09:16:02.220Z"}
+{"level":"warn","message":"Invalid Password or password doesn't match","service":"auth-service","timestamp":"2025-06-15T09:16:02.374Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"auth-service","timestamp":"2025-06-15T09:16:25.641Z"}
+{"level":"info","message":"Request body : {\"email\":\"arceus@gmail.com\",\"password\":\"123456789\"}","service":"auth-service","timestamp":"2025-06-15T09:16:25.644Z"}
+{"level":"info","message":"Login endpoint hit...","service":"auth-service","timestamp":"2025-06-15T09:16:25.652Z"}
+{"level":"warn","message":"Invalid Password or password doesn't match","service":"auth-service","timestamp":"2025-06-15T09:16:26.007Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"auth-service","timestamp":"2025-06-15T09:16:32.067Z"}
+{"level":"info","message":"Request body : {\"email\":\"arceus@gmail.com\",\"password\":\"12345678\"}","service":"auth-service","timestamp":"2025-06-15T09:16:32.068Z"}
+{"level":"info","message":"Login endpoint hit...","service":"auth-service","timestamp":"2025-06-15T09:16:32.072Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"auth-service","timestamp":"2025-06-15T09:19:43.931Z"}
+{"level":"info","message":"Request body : {\"email\":\"arceus\",\"password\":\"12345678\"}","service":"auth-service","timestamp":"2025-06-15T09:19:43.932Z"}
+{"level":"info","message":"Login endpoint hit...","service":"auth-service","timestamp":"2025-06-15T09:19:43.935Z"}
+{"0":"\"","1":"e","10":"s","11":"t","12":" ","13":"b","14":"e","15":" ","16":"a","17":" ","18":"v","19":"a","2":"m","20":"l","21":"i","22":"d","23":" ","24":"e","25":"m","26":"a","27":"i","28":"l","3":"a","4":"i","5":"l","6":"\"","7":" ","8":"m","9":"u","level":"error","message":"Validation error ","service":"auth-service","timestamp":"2025-06-15T09:19:43.938Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"auth-service","timestamp":"2025-06-15T09:20:07.549Z"}
+{"level":"info","message":"Request body : {\"username\":\"arceus\",\"password\":\"12345678\"}","service":"auth-service","timestamp":"2025-06-15T09:20:07.550Z"}
+{"level":"info","message":"Login endpoint hit...","service":"auth-service","timestamp":"2025-06-15T09:20:07.553Z"}
+{"level":"warn","message":"Invalid credentials or user doesn't exist","service":"auth-service","timestamp":"2025-06-15T09:20:07.617Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:20:23.278Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T09:20:25.310Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:20:26.986Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T09:20:27.912Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/login","service":"auth-service","timestamp":"2025-06-15T09:20:37.963Z"}
+{"level":"info","message":"Request body : {\"email\":\"arceus@gmail.com\",\"password\":\"12345678\"}","service":"auth-service","timestamp":"2025-06-15T09:20:37.964Z"}
+{"level":"info","message":"Login endpoint hit...","service":"auth-service","timestamp":"2025-06-15T09:20:37.973Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:22:01.531Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T09:22:03.022Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:22:35.335Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:22:36.627Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:22:38.148Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T09:22:39.158Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T09:22:49.321Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T09:22:50.453Z"}

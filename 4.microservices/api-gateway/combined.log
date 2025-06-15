@@ -34,3 +34,30 @@
 {"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T08:16:59.925Z"}
 {"level":"info","message":"Request body, {\"username\":\"diaa\",\"email\":\"dialga@gmail.com\",\"password\":\"12345678\",\"name\":\"Dialga\",\"age\":21,\"mobile\":\"1234567890\"}","service":"api-gateway","timestamp":"2025-06-15T08:16:59.926Z"}
 {"level":"info","message":"Response recieved from Auth-service: 400","service":"api-gateway","timestamp":"2025-06-15T08:16:59.945Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-15T09:13:21.417Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-15T09:13:21.422Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-15T09:13:21.423Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T09:15:04.412Z"}
+{"level":"info","message":"Request body, {\"email\":\"arceus@gmail.com\",\"password\":\"arceus@gmail.com\"}","service":"api-gateway","timestamp":"2025-06-15T09:15:04.413Z"}
+{"level":"info","message":"Response recieved from Auth-service: 400","service":"api-gateway","timestamp":"2025-06-15T09:15:04.559Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-15T09:15:20.116Z"}
+{"level":"info","message":"Request body, {\"email\":\"arceus@gmail.com\",\"password\":\"arceus@gmail.com\"}","service":"api-gateway","timestamp":"2025-06-15T09:15:20.117Z"}
+{"level":"info","message":"Response recieved from Auth-service: 500","service":"api-gateway","timestamp":"2025-06-15T09:15:20.272Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-15T09:16:02.202Z"}
+{"level":"info","message":"Request body, {\"email\":\"arceus@gmail.com\",\"password\":\"arceus@gmail.com\"}","service":"api-gateway","timestamp":"2025-06-15T09:16:02.203Z"}
+{"level":"info","message":"Response recieved from Auth-service: 400","service":"api-gateway","timestamp":"2025-06-15T09:16:02.378Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-15T09:16:25.628Z"}
+{"level":"info","message":"Request body, {\"email\":\"arceus@gmail.com\",\"password\":\"123456789\"}","service":"api-gateway","timestamp":"2025-06-15T09:16:25.631Z"}
+{"level":"info","message":"Response recieved from Auth-service: 400","service":"api-gateway","timestamp":"2025-06-15T09:16:26.010Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-15T09:16:32.057Z"}
+{"level":"info","message":"Request body, {\"email\":\"arceus@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-15T09:16:32.059Z"}
+{"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-15T09:16:32.416Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-15T09:19:43.918Z"}
+{"level":"info","message":"Request body, {\"email\":\"arceus\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-15T09:19:43.922Z"}
+{"level":"info","message":"Response recieved from Auth-service: 400","service":"api-gateway","timestamp":"2025-06-15T09:19:43.943Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-15T09:20:07.540Z"}
+{"level":"info","message":"Request body, {\"username\":\"arceus\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-15T09:20:07.542Z"}
+{"level":"info","message":"Response recieved from Auth-service: 400","service":"api-gateway","timestamp":"2025-06-15T09:20:07.621Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-15T09:20:37.922Z"}
+{"level":"info","message":"Request body, {\"email\":\"arceus@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-15T09:20:37.924Z"}
+{"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-15T09:20:38.333Z"}

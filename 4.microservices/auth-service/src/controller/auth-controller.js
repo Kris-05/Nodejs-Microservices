@@ -34,12 +34,12 @@ export const registerUser = async (req, res) => {
     logger.info("User registered successfully", user._id);
 
     // get the tokens for authentication
-    // const { accessToken, refreshToken } = generateTokens(user);
+    const { accessToken, refreshToken } = await generateTokens(user);
     res.status(201).json({
       success: true,
       message: "User registerd successfully",
-      // accessToken,
-      // refreshToken,
+      accessToken : accessToken,
+      refreshToken : refreshToken,
     });
   } catch (e) {
     logger.error("Error while registering user", e);

@@ -1,0 +1,36 @@
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-15T07:28:11.371Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-15T07:28:11.378Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-15T07:28:11.379Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T07:35:14.458Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-15T07:35:14.459Z"}
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","service":"api-gateway","timestamp":"2025-06-15T07:35:14.491Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-15T07:36:22.851Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-15T07:36:22.857Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-15T07:36:22.857Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-15T07:36:24.085Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-15T07:36:24.092Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-15T07:36:24.094Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T07:37:20.055Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-15T07:37:20.056Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-06-15T07:37:20.084Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T07:41:20.150Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-15T07:41:20.151Z"}
+{"level":"info","message":"Response recieved from Auth-service: 201","service":"api-gateway","timestamp":"2025-06-15T07:41:20.498Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T07:42:19.216Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-15T07:42:19.217Z"}
+{"level":"info","message":"Response recieved from Auth-service: 201","service":"api-gateway","timestamp":"2025-06-15T07:42:19.586Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-15T07:42:44.221Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-15T07:42:44.227Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-15T07:42:44.228Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T07:54:51.590Z"}
+{"level":"info","message":"Request body, [object Object]","service":"api-gateway","timestamp":"2025-06-15T07:54:51.591Z"}
+{"level":"info","message":"Response recieved from Auth-service: 201","service":"api-gateway","timestamp":"2025-06-15T07:54:52.151Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-15T07:57:38.325Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-15T07:57:38.330Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-15T07:57:38.331Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T07:58:54.312Z"}
+{"level":"info","message":"Request body, {\"username\":\"dialga\",\"email\":\"dialga@gmail.com\",\"password\":\"12345678\",\"name\":\"Dialga\",\"age\":21,\"mobile\":\"1234567890\"}","service":"api-gateway","timestamp":"2025-06-15T07:58:54.313Z"}
+{"level":"info","message":"Response recieved from Auth-service: 400","service":"api-gateway","timestamp":"2025-06-15T07:58:54.537Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-15T08:16:59.925Z"}
+{"level":"info","message":"Request body, {\"username\":\"diaa\",\"email\":\"dialga@gmail.com\",\"password\":\"12345678\",\"name\":\"Dialga\",\"age\":21,\"mobile\":\"1234567890\"}","service":"api-gateway","timestamp":"2025-06-15T08:16:59.926Z"}
+{"level":"info","message":"Response recieved from Auth-service: 400","service":"api-gateway","timestamp":"2025-06-15T08:16:59.945Z"}

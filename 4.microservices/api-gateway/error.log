@@ -1,0 +1,2 @@
+{"level":"error","message":"AggregateError [ECONNREFUSED]: \n    at internalConnectMultiple (node:net:1117:18)\n    at afterConnectMultiple (node:net:1684:7)","service":"api-gateway","timestamp":"2025-06-15T07:35:14.491Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-06-15T07:37:20.084Z"}

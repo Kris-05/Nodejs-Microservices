@@ -28,20 +28,20 @@ app.use(cors());
 app.use(express.json());
 app.use((req, res, next) => {
   logger.info(`Recieved ${req.method} request to ${req.url}`);
-  logger.info(`Request body : ${req.body}`);
+  logger.info(`Request body : ${JSON.stringify(req.body)}`);
   next();
 });
 
-// DDos protection & rate limiting
-const rateLimiter = new RateLimiterRedis({
+// DDos protection & rate limiting using redis
+const rateLimiter = new RateLimiterRedis({ //  Creates a rate limiter using Redis as the backend.
   storeClient: redisClient,
-  keyPrefix: "middleware",
+  keyPrefix: "middleware", // Prefix for Redis keys to avoid collisions.
   points: 10, // 10 req per sec
   duration: 1,
 });
 app.use((req, res, next) => {
   rateLimiter
-    .consume(req.ip)
+    .consume(req.ip) // Checks and decrements the counter for the IP.
     .then(() => next())
     .catch(() => {
       logger.warn(`Rate limit exceeded for IP : ${req.ip}`);
@@ -56,8 +56,8 @@ app.use((req, res, next) => {
 const sensitiveLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   max: 50,
-  standardHeaders: true,
-  legacyHeaders: false,
+  standardHeaders: true, // Use standard rate limit headers in responses.
+  legacyHeaders: false, // Disable old-style headers.
   handler: (req, res) => {
     logger.warn(`Sensitive endpoint rate limit exceeded for IP: ${req.ip}`);
     res.status(429).json({
@@ -65,11 +65,10 @@ const sensitiveLimiter = rateLimit({
       message: "Too many requests",
     });
   },
-  store: new RedisStore({
+  store: new RedisStore({ // Use Redis as the backend for storing counters.
     sendCommand: (...args) => redisClient.call(...args),
   }),
 });
-
 // use rate limiter to the endpoints
 app.use(`/api/auth/register`, sensitiveLimiter);
 
@@ -81,7 +80,7 @@ app.use(errorHandler);
 
 // Start the server
 app.listen(PORT, () => {
-  logger.info(`Auth-Service on port ${PORT}`);
+  logger.info(`Auth-Service running on port ${PORT}`);
 });
 
 // unhandled promise rejection

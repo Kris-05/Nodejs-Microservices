@@ -34,3 +34,87 @@
 {"level":"warn","message":"User already exists","service":"auth-service","timestamp":"2025-06-14T10:04:56.372Z"}
 {"level":"info","message":"Auth-Service on port 3001","service":"auth-service","timestamp":"2025-06-14T10:06:03.109Z"}
 {"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-14T10:06:04.305Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:41:11.230Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:41:12.503Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:41:20.188Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:41:20.189Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:41:20.198Z"}
+{"buffer":{"data":[104,78,121,32,47,87,180,17,144,6,54,87],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"auth-service","timestamp":"2025-06-15T07:41:20.488Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:41:44.638Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:41:45.477Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:41:46.758Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:41:47.519Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:42:19.254Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:42:19.256Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:42:19.265Z"}
+{"buffer":{"data":[104,78,121,91,51,154,28,57,28,19,147,239],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"auth-service","timestamp":"2025-06-15T07:42:19.570Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:42:33.690Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:42:34.674Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:42:50.860Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:42:51.809Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:43:24.366Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:43:24.367Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:43:24.372Z"}
+{"buffer":{"data":[104,78,121,156,24,166,205,139,208,178,218,83],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"auth-service","timestamp":"2025-06-15T07:43:24.655Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:44:02.090Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:44:02.919Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:44:05.727Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:44:06.480Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:44:30.325Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:44:30.327Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:44:30.337Z"}
+{"buffer":{"data":[104,78,121,222,161,141,171,150,176,233,57,59],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"auth-service","timestamp":"2025-06-15T07:44:30.939Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:47:12.250Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:47:13.512Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:47:14.315Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:47:16.029Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:47:17.645Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:47:18.640Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:47:20.975Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:47:22.040Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:47:35.208Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:47:35.211Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:47:35.220Z"}
+{"buffer":{"data":[104,78,122,151,100,208,3,196,140,151,87,113],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"auth-service","timestamp":"2025-06-15T07:47:35.585Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:49:09.794Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:49:10.634Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:49:32.100Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:49:32.881Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:49:38.312Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:49:39.124Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:50:23.548Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:50:23.549Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:50:23.557Z"}
+{"buffer":{"data":[104,78,123,63,152,251,122,45,183,148,160,176],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"auth-service","timestamp":"2025-06-15T07:50:23.842Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:51:34.776Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:51:35.626Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:52:30.221Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:52:30.223Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:52:30.234Z"}
+{"level":"warn","message":"User already exists","service":"auth-service","timestamp":"2025-06-15T07:52:30.335Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:52:55.068Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:52:55.071Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:52:55.074Z"}
+{"buffer":{"data":[104,78,123,215,20,216,52,101,168,113,250,228],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"auth-service","timestamp":"2025-06-15T07:52:55.476Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:54:04.927Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:54:05.952Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:54:51.649Z"}
+{"level":"info","message":"Request body : [object Object]","service":"auth-service","timestamp":"2025-06-15T07:54:51.650Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:54:51.661Z"}
+{"buffer":{"data":[104,78,124,75,229,14,121,103,14,186,76,189],"type":"Buffer"},"level":"info","message":"User registered successfully","service":"auth-service","timestamp":"2025-06-15T07:54:52.032Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T07:58:38.800Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T07:58:39.627Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T07:58:54.368Z"}
+{"level":"info","message":"Request body : {\"username\":\"dialga\",\"email\":\"dialga@gmail.com\",\"password\":\"12345678\",\"name\":\"Dialga\",\"age\":21,\"mobile\":\"1234567890\"}","service":"auth-service","timestamp":"2025-06-15T07:58:54.371Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T07:58:54.386Z"}
+{"level":"warn","message":"User already exists","service":"auth-service","timestamp":"2025-06-15T07:58:54.527Z"}
+{"level":"info","message":"Recieved POST request to /api/auth/register","service":"auth-service","timestamp":"2025-06-15T08:16:59.935Z"}
+{"level":"info","message":"Request body : {\"username\":\"diaa\",\"email\":\"dialga@gmail.com\",\"password\":\"12345678\",\"name\":\"Dialga\",\"age\":21,\"mobile\":\"1234567890\"}","service":"auth-service","timestamp":"2025-06-15T08:16:59.936Z"}
+{"level":"info","message":"Registration endpoint hit...","service":"auth-service","timestamp":"2025-06-15T08:16:59.939Z"}
+{"0":"\"","1":"u","10":" ","11":"l","12":"e","13":"n","14":"g","15":"t","16":"h","17":" ","18":"m","19":"u","2":"s","20":"s","21":"t","22":" ","23":"b","24":"e","25":" ","26":"a","27":"t","28":" ","29":"l","3":"e","30":"e","31":"a","32":"s","33":"t","34":" ","35":"6","36":" ","37":"c","38":"h","39":"a","4":"r","40":"r","41":"a","42":"c","43":"t","44":"e","45":"r","46":"s","47":" ","48":"l","49":"o","5":"n","50":"n","51":"g","6":"a","7":"m","8":"e","9":"\"","level":"warn","message":"Error while validating fields","service":"auth-service","timestamp":"2025-06-15T08:16:59.942Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T08:17:48.706Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T08:17:49.635Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T08:25:24.635Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T08:25:25.604Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-15T08:25:35.588Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-15T08:25:36.615Z"}

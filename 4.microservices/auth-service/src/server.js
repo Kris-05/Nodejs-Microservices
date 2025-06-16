@@ -39,19 +39,6 @@ const rateLimiter = new RateLimiterRedis({ //  Creates a rate limiter using Redi
   points: 10, // 10 req per sec
   duration: 1,
 });
-app.use((req, res, next) => {
-  rateLimiter
-    .consume(req.ip) // Checks and decrements the counter for the IP.
-    .then(() => next())
-    .catch(() => {
-      logger.warn(`Rate limit exceeded for IP : ${req.ip}`);
-      res.status(429).json({
-        success: false,
-        message: "Too many requests",
-      });
-    });
-});
-
 // IP based rate limiting for sensitive endpoints
 const sensitiveLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
@@ -69,7 +56,20 @@ const sensitiveLimiter = rateLimit({
     sendCommand: (...args) => redisClient.call(...args),
   }),
 });
+
 // use rate limiter to the endpoints
+app.use((req, res, next) => {
+  rateLimiter
+    .consume(req.ip) // Checks and decrements the counter for the IP.
+    .then(() => next())
+    .catch(() => {
+      logger.warn(`Rate limit exceeded for IP : ${req.ip}`);
+      res.status(429).json({
+        success: false,
+        message: "Too many requests",
+      });
+    });
+});
 app.use(`/api/auth/register`, sensitiveLimiter);
 
 // Routes

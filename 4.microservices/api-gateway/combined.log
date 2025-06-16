@@ -61,3 +61,13 @@
 {"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-15T09:20:37.922Z"}
 {"level":"info","message":"Request body, {\"email\":\"arceus@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-15T09:20:37.924Z"}
 {"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-15T09:20:38.333Z"}
+
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-16T14:58:20.195Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-16T14:58:20.198Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-16T14:58:20.199Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/register","service":"api-gateway","timestamp":"2025-06-16T14:58:58.538Z"}
+{"level":"info","message":"Request body, {\"username\":\"palkia\",\"email\":\"palkia@gmail.com\",\"password\":\"12345678\",\"name\":\"Palkia\",\"age\":21,\"mobile\":\"1234567890\"}","service":"api-gateway","timestamp":"2025-06-16T14:58:58.539Z"}
+{"level":"info","message":"Response recieved from Auth-service: 201","service":"api-gateway","timestamp":"2025-06-16T14:58:59.138Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-16T14:59:30.566Z"}
+{"level":"info","message":"Request body, {\"email\":\"palkia@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-16T14:59:30.566Z"}
+{"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-16T14:59:30.834Z"}

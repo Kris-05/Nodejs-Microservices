@@ -9,6 +9,7 @@ import proxy from "express-http-proxy";
 
 import { errorHandler } from "../src/middleware/errorHandler.js";
 import { logger } from "../src/utils/logger.js";
+import { validateToken } from "./middleware/authMiddleware.js";
 
 dotenv.config();
 const app = express();
@@ -69,6 +70,25 @@ app.use('/v1/auth', proxy(process.env.AUTH_SERVICE_URL, {
   }
 }));
 
+// setup proxy for post-service
+app.use('/v1/posts',validateToken, proxy(process.env.POST_SERVICE_URL, {
+  ...proxyOptions,
+  proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
+    if(!srcReq.user || !srcReq.user.userId){
+      logger.error(`User not authenticated, specify access token`);
+      throw new Error('User not authenticated, specify access token');
+    }
+
+    proxyReqOpts.headers["Content-Type"] = "application/json";
+    proxyReqOpts.headers["x-user-id"] = srcReq.user.userId;
+    return proxyReqOpts;
+  },
+  userResDecorator : (proxyRes, proxyResData, userReq) => {
+    logger.info(`Response recieved from Post-Service: ${proxyRes.statusCode}`);
+    return proxyResData;
+  }
+}));
+
 // error handlers
 app.use(errorHandler);
 
@@ -76,5 +96,6 @@ app.use(errorHandler);
 app.listen(PORT, () => {
   logger.info(`API gateway is running on port : ${PORT}`);
   logger.info(`Auth service is running on port : ${process.env.AUTH_SERVICE_URL}`);
+  logger.info(`Post service is running on port : ${process.env.POST_SERVICE_URL}`);
   logger.info(`Redis URL : ${process.env.REDIS_URL}`);
 });

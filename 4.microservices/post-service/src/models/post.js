@@ -38,7 +38,7 @@ postSchema.statics.didUserLike = async function (userId) {
   return !!like;
 };
 
-postSchema.statics.addLike = async function (userId) {
+postSchema.methods.addLike = async function (userId) {
   try {
     await Like.create({ user: userId, post: this._id });
     this.likeCount += 1;
@@ -50,7 +50,7 @@ postSchema.statics.addLike = async function (userId) {
   }
 };
 
-postSchema.statics.removeLike = async function (userId) {
+postSchema.methods.removeLike = async function (userId) {
   const result = await Like.deleteOne({
     user: userId,
     post: this._id,
@@ -64,10 +64,10 @@ postSchema.statics.removeLike = async function (userId) {
   return false; // Like didn't exist
 };
 
-postSchema.statics.findByHashtag = async function (hashtag) {
+postSchema.statics.findByHashtag = async function (hashtag, startIndex, limit) {
   // Remove '#' if included and convert to lowercase
   const cleanHashtag = hashtag.replace(/^#/, "").toLowerCase();
-  return this.find({ hashtags: cleanHashtag }).sort({ createdAt: -1 }); // Newest first
+  return this.find({ hashtags: cleanHashtag }).sort({ createdAt: -1 }).skip(startIndex).limit(limit); // Newest first
 };
 
 // Indexes for faster queries

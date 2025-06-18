@@ -51,6 +51,9 @@ const proxyOptions = {
   },
   proxyErrorHandler: (err, res, next) => {
     logger.error(`Proxy error: ${err.message}`);
+    if (res.headersSent) {
+      return next(err);
+    }
     res.status(500).json({ 
       message : `Internal server error`, error : err.message 
     });
@@ -71,7 +74,7 @@ app.use('/v1/auth', proxy(process.env.AUTH_SERVICE_URL, {
 }));
 
 // setup proxy for post-service
-app.use('/v1/posts',validateToken, proxy(process.env.POST_SERVICE_URL, {
+app.use('/v1/posts', validateToken, proxy(process.env.POST_SERVICE_URL, {
   ...proxyOptions,
   proxyReqOptDecorator: (proxyReqOpts, srcReq) => {
     if(!srcReq.user || !srcReq.user.userId){

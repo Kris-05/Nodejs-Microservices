@@ -164,7 +164,7 @@ export const deletePost = async (req, res) => {
     if(!post){
       res.status(200).json({
         success : false,
-        message : `Post not found`
+        message : `Post not found for id ${userId}`
       });
     }
 

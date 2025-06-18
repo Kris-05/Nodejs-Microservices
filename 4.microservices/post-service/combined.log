@@ -852,3 +852,272 @@
 {"level":"info","message":"Recieved GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-06-17T14:23:50.412Z"}
 {"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-17T14:23:50.413Z"}
 {"level":"info","message":"Get all posts endpoint hit...","service":"post-service","timestamp":"2025-06-17T14:23:50.414Z"}
+
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:22:53.481Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:22:54.515Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:25:38.555Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:25:41.021Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:25:42.594Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:25:43.629Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:25:45.582Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:25:46.980Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:25:48.004Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:25:48.870Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-06-18T16:26:10.215Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:26:10.217Z"}
+{"level":"info","message":"Get all posts endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:26:10.219Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-06-18T16:26:13.617Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:26:13.618Z"}
+{"level":"info","message":"Get all posts endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:26:13.619Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-post/685146072e7b7f37d9c396da","service":"post-service","timestamp":"2025-06-18T16:26:37.635Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:26:37.636Z"}
+{"level":"info","message":"Get single post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:26:37.639Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-post/685146072e7b7f37d9c396da","service":"post-service","timestamp":"2025-06-18T16:26:42.829Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:26:42.830Z"}
+{"level":"info","message":"Get single post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:26:42.831Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:27:59.697Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:27:59.697Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:27:59.701Z"}
+{"level":"error","message":"Error Liking Post this.save is not a function","service":"post-service","stack":"TypeError: this.save is not a function\n    at postSchema.statics.addLike (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/models/post.js:45:16)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async likePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:18:19)","timestamp":"2025-06-18T16:27:59.881Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:30:16.637Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:30:17.643Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:30:24.546Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:30:26.144Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:30:34.731Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:30:36.327Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:30:46.639Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:30:46.640Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:30:46.642Z"}
+{"level":"error","message":"Error Liking Post post.addLike is not a function","service":"post-service","stack":"TypeError: post.addLike is not a function\n    at likePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:18:30)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-18T16:30:46.724Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:31:10.972Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:31:12.086Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:31:17.698Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:31:17.699Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:31:17.702Z"}
+{"level":"info","message":"Post liked","service":"post-service","timestamp":"2025-06-18T16:31:17.949Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:31:21.259Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:31:21.260Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:31:21.262Z"}
+{"level":"info","message":"Already liked","service":"post-service","timestamp":"2025-06-18T16:31:21.580Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:32:41.416Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:32:41.417Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:32:41.418Z"}
+{"level":"info","message":"Post liked","service":"post-service","timestamp":"2025-06-18T16:32:41.652Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:33:17.084Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:33:17.085Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:33:17.086Z"}
+{"level":"info","message":"Already liked","service":"post-service","timestamp":"2025-06-18T16:33:17.408Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:34:13.915Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:34:13.916Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:34:13.917Z"}
+{"level":"info","message":"Post liked","service":"post-service","timestamp":"2025-06-18T16:34:14.183Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:34:15.666Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:34:15.667Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:34:15.668Z"}
+{"level":"info","message":"Already liked","service":"post-service","timestamp":"2025-06-18T16:34:16.051Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:36:31.262Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:36:34.738Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b77d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:36:37.723Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:36:37.724Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:36:37.725Z"}
+{"kind":"ObjectId","level":"error","message":"Error Liking Post Cast to ObjectId failed for value \"685146072e7b77d9c396da\" (type string) at path \"_id\" for model \"Post\"","path":"_id","reason":{},"service":"post-service","stack":"CastError: Cast to ObjectId failed for value \"685146072e7b77d9c396da\" (type string) at path \"_id\" for model \"Post\"\n    at SchemaObjectId.cast (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at cast (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\cast.js:390:32)\n    at Query.cast (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:5055:12)\n    at Query._castConditions (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:2351:10)\n    at model.Query._findOne (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:2674:8)\n    at model.Query.exec (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:4604:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async likePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:9:18)","stringValue":"\"685146072e7b77d9c396da\"","timestamp":"2025-06-18T16:36:37.734Z","value":"685146072e7b77d9c396da","valueType":"string"}
+{"level":"info","message":"Recieved POST request to /api/posts/68514ty6072e7b77d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:38:16.710Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:38:16.712Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:38:16.725Z"}
+{"kind":"ObjectId","level":"error","message":"Error Liking Post Cast to ObjectId failed for value \"68514ty6072e7b77d9c396da\" (type string) at path \"_id\" for model \"Post\"","path":"_id","reason":{},"service":"post-service","stack":"CastError: Cast to ObjectId failed for value \"68514ty6072e7b77d9c396da\" (type string) at path \"_id\" for model \"Post\"\n    at SchemaObjectId.cast (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\schema\\objectId.js:251:11)\n    at SchemaType.applySetters (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1255:12)\n    at SchemaType.castForQuery (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\schemaType.js:1673:17)\n    at cast (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\cast.js:390:32)\n    at Query.cast (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:5055:12)\n    at Query._castConditions (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:2351:10)\n    at model.Query._findOne (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:2674:8)\n    at model.Query.exec (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\mongoose\\lib\\query.js:4604:80)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async likePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:9:18)","stringValue":"\"68514ty6072e7b77d9c396da\"","timestamp":"2025-06-18T16:38:16.736Z","value":"68514ty6072e7b77d9c396da","valueType":"string"}
+{"level":"info","message":"Recieved POST request to /api/posts/68514096072e7b77d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:39:39.508Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:39:39.508Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:39:39.509Z"}
+{"level":"error","message":"Error Liking Post Cannot read properties of null (reading '_id')","service":"post-service","stack":"TypeError: Cannot read properties of null (reading '_id')\n    at likePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:11:55)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-18T16:39:40.016Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:41:27.817Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:41:29.188Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/68514096072e7b77d9c396da/like","service":"post-service","timestamp":"2025-06-18T16:41:38.030Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:41:38.031Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:41:38.033Z"}
+{"level":"error","message":"Post not found","service":"post-service","timestamp":"2025-06-18T16:41:38.119Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:42:00.068Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:42:04.843Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:42:10.267Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:42:11.047Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:42:24.740Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:42:26.739Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:42:30.444Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:42:32.601Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:42:56.453Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:42:58.093Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:42:59.835Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:43:44.227Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:43:45.522Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:43:49.266Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:43:50.248Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:43:55.574Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:43:57.485Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:01.788Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:02.972Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:10.064Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:11.057Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:12.838Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:13.745Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:15.388Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:16.338Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:20.965Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:22.203Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:24.168Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:24.934Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:26.367Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:27.441Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:28.286Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:43.742Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:45.543Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:49.187Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:51.515Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:52.923Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:44:54.086Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:44:56.056Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:45:49.654Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:45:51.557Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:45:54.351Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/68514096072e7b77d9c396da/dislike","service":"post-service","timestamp":"2025-06-18T16:45:56.603Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:45:56.603Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:45:57.296Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/68514096072e7b77d9c396da/dislike","service":"post-service","timestamp":"2025-06-18T16:46:17.365Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:46:17.366Z"}
+{"level":"error","message":"Error Disliking Post Post.getById is not a function","service":"post-service","stack":"TypeError: Post.getById is not a function\n    at dislikePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:38:29)\n    at Layer.handleRequest (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:295:15\n    at param (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:600:14)\n    at param (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:610:14)\n    at processParams (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:664:3)","timestamp":"2025-06-18T16:46:17.372Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:46:46.561Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:46:48.799Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/68514096072e7b77d9c396da/dislike","service":"post-service","timestamp":"2025-06-18T16:46:49.037Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:46:49.039Z"}
+{"level":"error","message":"Post not found","service":"post-service","timestamp":"2025-06-18T16:46:49.725Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/dislike","service":"post-service","timestamp":"2025-06-18T16:47:11.746Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:47:11.747Z"}
+{"level":"info","message":"Post liked","service":"post-service","timestamp":"2025-06-18T16:47:12.012Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/dislike","service":"post-service","timestamp":"2025-06-18T16:47:18.018Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:47:18.019Z"}
+{"level":"info","message":"Already liked","service":"post-service","timestamp":"2025-06-18T16:47:18.160Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:47:29.269Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:47:30.361Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:47:33.076Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:47:35.860Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/dislike","service":"post-service","timestamp":"2025-06-18T16:47:57.936Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:47:57.939Z"}
+{"level":"info","message":"Post liked","service":"post-service","timestamp":"2025-06-18T16:47:58.245Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/delete-post/6851449005117f17930a43aa","service":"post-service","timestamp":"2025-06-18T16:50:27.268Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:50:27.271Z"}
+{"level":"info","message":"Delete post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:50:27.273Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Error deleting Post Cannot set headers after they are sent to the client","service":"post-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:173:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-18T16:50:27.376Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:179:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","service":"post-service","timestamp":"2025-06-18T16:50:27.379Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/delete-post/685146072e7b7f37d9c396da","service":"post-service","timestamp":"2025-06-18T16:50:39.087Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:50:39.088Z"}
+{"level":"info","message":"Delete post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:50:39.089Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Error deleting Post Cannot set headers after they are sent to the client","service":"post-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:173:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-18T16:50:39.203Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:179:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","service":"post-service","timestamp":"2025-06-18T16:50:39.207Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:51:10.550Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:51:11.726Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/delete-post/685146072e7b7f37d9c396da","service":"post-service","timestamp":"2025-06-18T16:51:15.669Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:51:15.670Z"}
+{"level":"info","message":"Delete post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:51:15.672Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Error deleting Post Cannot set headers after they are sent to the client","service":"post-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:173:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-18T16:51:15.762Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:179:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","service":"post-service","timestamp":"2025-06-18T16:51:15.770Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T16:52:04.655Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T16:52:08.791Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/create-post","service":"post-service","timestamp":"2025-06-18T16:58:32.044Z"}
+{"level":"info","message":"Request body : {\"content\":\"Post 5\",\"mediaIds\":[\"sample3\",\"sample4\"],\"hashtags\":[\"#testing\"]}","service":"post-service","timestamp":"2025-06-18T16:58:32.045Z"}
+{"level":"info","message":"Create post endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:58:32.046Z"}
+{"$__":{"$versionError":null,"activePaths":{"paths":{"content":"require","user":"require"},"states":{"default":{},"modify":{},"require":{"content":true,"user":true}}},"backup":{"activePaths":{"default":{"_id":true,"createdAt":true,"likeCount":true},"modify":{"content":true,"hashtags":true,"mediaIds":true,"updatedAt":true,"user":true}},"validationError":null},"cachedRequired":{},"inserting":true,"op":null,"pathsToScopes":{"hashtags":{"__v":0,"_id":"6852f038242f1e723597813a","content":"Post 5","createdAt":"2025-06-18T16:52:04.542Z","hashtags":["testing"],"likeCount":0,"mediaIds":["sample3","sample4"],"updatedAt":"2025-06-18T16:52:04.542Z","user":"684e7c4be50e79670eba4cbd"}},"saveOptions":null,"savedState":{},"saving":null,"validating":null},"$isNew":false,"_doc":{"__v":0,"_id":"6852f038242f1e723597813a","content":"Post 5","createdAt":"2025-06-18T16:52:04.542Z","hashtags":["testing"],"likeCount":0,"mediaIds":["sample3","sample4"],"updatedAt":"2025-06-18T16:52:04.542Z","user":"684e7c4be50e79670eba4cbd"},"level":"info","message":"Post created successfully","service":"post-service","timestamp":"2025-06-18T16:58:32.149Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-06-18T16:59:07.473Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T16:59:07.475Z"}
+{"level":"info","message":"Get all posts endpoint hit...","service":"post-service","timestamp":"2025-06-18T16:59:07.477Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/delete-post/6852f038242f1e723597813a","service":"post-service","timestamp":"2025-06-18T17:00:11.733Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:00:11.734Z"}
+{"level":"info","message":"Delete post endpoint hit...","service":"post-service","timestamp":"2025-06-18T17:00:11.737Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Error deleting Post Cannot set headers after they are sent to the client","service":"post-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:173:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-18T17:00:12.221Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:179:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","service":"post-service","timestamp":"2025-06-18T17:00:12.224Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:00:58.572Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:01:00.238Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:01:07.772Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:01:09.647Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:01:11.824Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:01:25.265Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:01:27.295Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:01:28.956Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:01:31.058Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/delete-post/6852f038242f1e723597813a","service":"post-service","timestamp":"2025-06-18T17:01:32.624Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:01:32.625Z"}
+{"level":"info","message":"Delete post endpoint hit...","service":"post-service","timestamp":"2025-06-18T17:01:32.626Z"}
+{"code":"ERR_HTTP_HEADERS_SENT","level":"error","message":"Error deleting Post Cannot set headers after they are sent to the client","service":"post-service","stack":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:173:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2025-06-18T17:01:33.044Z"}
+{"level":"error","message":"Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:703:11)\n    at ServerResponse.header (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:684:10)\n    at ServerResponse.send (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:161:12)\n    at ServerResponse.json (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\express\\lib\\response.js:250:15)\n    at deletePost (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/post-controller.js:179:21)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)","service":"post-service","timestamp":"2025-06-18T17:01:33.046Z"}
+{"level":"info","message":"Recieved DELETE request to /api/posts/delete-post/6852f038242f1e723597813a","service":"post-service","timestamp":"2025-06-18T17:01:54.345Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:01:54.348Z"}
+{"level":"info","message":"Delete post endpoint hit...","service":"post-service","timestamp":"2025-06-18T17:01:54.350Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685146072e7b7f37d9c396da/dislike","service":"post-service","timestamp":"2025-06-18T17:02:03.417Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:02:03.417Z"}
+{"level":"info","message":"Already liked","service":"post-service","timestamp":"2025-06-18T17:02:04.009Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:03:18.168Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:03:20.200Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:03:21.467Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:03:23.290Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:03:28.337Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:03:29.769Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:03:38.646Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:03:40.480Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:03:42.276Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:18:02.165Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:18:04.019Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/hashtags/new","service":"post-service","timestamp":"2025-06-18T17:18:06.975Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:18:06.976Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/hashtag/new","service":"post-service","timestamp":"2025-06-18T17:19:21.614Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:19:21.616Z"}
+{"level":"error","message":"Error fetching posts by hashtag query is not defined","service":"post-service","stack":"ReferenceError: query is not defined\n    at getPostByHashtag (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:68:31)\n    at Layer.handleRequest (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:295:15\n    at param (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:600:14)\n    at param (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:610:14)\n    at processParams (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:664:3)","timestamp":"2025-06-18T17:19:21.620Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:19:57.351Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:19:59.619Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/hashtag/new","service":"post-service","timestamp":"2025-06-18T17:20:01.109Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:20:01.109Z"}
+{"level":"error","message":"Error fetching posts by hashtag redisClient is not defined","service":"post-service","stack":"ReferenceError: redisClient is not defined\n    at getPostByHashtag (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:73:20)\n    at Layer.handleRequest (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:295:15\n    at param (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:600:14)\n    at param (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:610:14)\n    at processParams (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:664:3)","timestamp":"2025-06-18T17:20:01.111Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/hashtag/new","service":"post-service","timestamp":"2025-06-18T17:21:06.716Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:21:06.717Z"}
+{"level":"error","message":"Error fetching posts by hashtag redisClient is not defined","service":"post-service","stack":"ReferenceError: redisClient is not defined\n    at getPostByHashtag (file:///E:/Web%20development/Node/Part-2/4.microservices/post-service/src/controller/functional-controller.js:73:20)\n    at Layer.handleRequest (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at next (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\route.js:157:13)\n    at Route.dispatch (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\route.js:117:3)\n    at handle (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:435:11)\n    at Layer.handleRequest (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\lib\\layer.js:152:17)\n    at E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:295:15\n    at param (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:600:14)\n    at param (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:610:14)\n    at processParams (E:\\Web development\\Node\\Part-2\\4.microservices\\post-service\\node_modules\\router\\index.js:664:3)","timestamp":"2025-06-18T17:21:06.718Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:23:20.182Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:23:22.776Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/hashtag/new","service":"post-service","timestamp":"2025-06-18T17:23:26.062Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:23:26.063Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/hashtag/testing","service":"post-service","timestamp":"2025-06-18T17:23:41.740Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:23:41.741Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/hashtag/testing","service":"post-service","timestamp":"2025-06-18T17:23:49.313Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:23:49.316Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:24:19.546Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:24:21.708Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:24:34.838Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:24:36.494Z"}
+{"level":"info","message":"Post-Service running on port 3002","service":"post-service","timestamp":"2025-06-18T17:34:28.170Z"}
+{"level":"info","message":"Connected to mongoDB","service":"post-service","timestamp":"2025-06-18T17:34:30.238Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/liked","service":"post-service","timestamp":"2025-06-18T17:34:33.524Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:34:33.525Z"}
+{"level":"info","message":"Get liked post endpoint hit for user 684e7c4be50e79670eba4cbd...","service":"post-service","timestamp":"2025-06-18T17:34:33.528Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/68514096072e7b77d9c396da/like","service":"post-service","timestamp":"2025-06-18T17:34:57.881Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:34:57.882Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T17:34:57.884Z"}
+{"level":"error","message":"Post not found","service":"post-service","timestamp":"2025-06-18T17:34:57.962Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/6852f038242f1e723597813a/like","service":"post-service","timestamp":"2025-06-18T17:35:12.969Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:35:12.970Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T17:35:12.971Z"}
+{"level":"error","message":"Post not found","service":"post-service","timestamp":"2025-06-18T17:35:13.173Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/get-posts","service":"post-service","timestamp":"2025-06-18T17:35:49.492Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:35:49.494Z"}
+{"level":"info","message":"Get all posts endpoint hit...","service":"post-service","timestamp":"2025-06-18T17:35:49.496Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685167f6f111c29a41965e1c/like","service":"post-service","timestamp":"2025-06-18T17:35:59.281Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:35:59.284Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T17:35:59.285Z"}
+{"level":"info","message":"Post liked","service":"post-service","timestamp":"2025-06-18T17:35:59.699Z"}
+{"level":"info","message":"Recieved POST request to /api/posts/685167f6f111c29a41965e1c/like","service":"post-service","timestamp":"2025-06-18T17:36:02.725Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:36:02.728Z"}
+{"level":"info","message":"Like post endpoint hit...","service":"post-service","timestamp":"2025-06-18T17:36:02.729Z"}
+{"level":"info","message":"Already liked","service":"post-service","timestamp":"2025-06-18T17:36:02.917Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/liked","service":"post-service","timestamp":"2025-06-18T17:36:06.554Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:36:06.555Z"}
+{"level":"info","message":"Get liked post endpoint hit for user 684e7c4be50e79670eba4cbd...","service":"post-service","timestamp":"2025-06-18T17:36:06.556Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/liked?limit=2","service":"post-service","timestamp":"2025-06-18T17:37:08.767Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:37:08.768Z"}
+{"level":"info","message":"Get liked post endpoint hit for user 684e7c4be50e79670eba4cbd...","service":"post-service","timestamp":"2025-06-18T17:37:08.770Z"}
+{"level":"info","message":"Recieved GET request to /api/posts/liked?limit=2","service":"post-service","timestamp":"2025-06-18T17:37:15.839Z"}
+{"level":"info","message":"Request body : {}","service":"post-service","timestamp":"2025-06-18T17:37:15.840Z"}
+{"level":"info","message":"Get liked post endpoint hit for user 684e7c4be50e79670eba4cbd...","service":"post-service","timestamp":"2025-06-18T17:37:15.841Z"}

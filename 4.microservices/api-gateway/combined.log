@@ -759,3 +759,284 @@
 {"level":"info","message":"Recieved GET request to /v1/posts/liked?limit=2","service":"api-gateway","timestamp":"2025-06-18T17:37:15.825Z"}
 {"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-18T17:37:15.827Z"}
 {"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-18T17:37:15.847Z"}
+
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-19T15:51:00.806Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-19T15:51:00.810Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-19T15:51:00.810Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-19T15:51:00.811Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-19T15:51:00.811Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T15:55:53.309Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T15:55:53.312Z"}
+{"level":"error","message":"Authorization header missing","service":"api-gateway","timestamp":"2025-06-19T15:55:53.317Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T15:56:04.579Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T15:56:04.581Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-06-19T15:56:04.597Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-19T15:56:11.598Z"}
+{"level":"info","message":"Request body, {\"email\":\"dialga@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-19T15:56:11.599Z"}
+{"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-19T15:56:11.994Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T15:56:29.323Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T15:56:29.324Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-06-19T15:56:29.331Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-19T15:58:27.376Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-19T15:58:27.381Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-19T15:58:27.382Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-19T15:58:27.382Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-19T15:58:27.383Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T15:58:35.991Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T15:58:35.992Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-06-19T15:58:36.011Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T15:59:03.048Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T15:59:03.050Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-06-19T15:59:03.062Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:02:49.431Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:02:49.433Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-06-19T16:02:49.439Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-19T16:03:02.806Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-19T16:03:02.810Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-19T16:03:02.811Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-19T16:03:02.811Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-19T16:03:02.811Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:04:25.904Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:04:25.905Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-06-19T16:04:25.919Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:05:56.162Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:05:56.164Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-06-19T16:05:56.167Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:06:43.967Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:06:43.968Z"}
+{"level":"error","message":"Proxy error: Cannot read properties of undefined (reading 'startsWith')","service":"api-gateway","timestamp":"2025-06-19T16:06:43.971Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-19T16:10:10.554Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-19T16:10:10.560Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-19T16:10:10.561Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-19T16:10:10.562Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-19T16:10:10.562Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-19T16:10:14.401Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-19T16:10:14.407Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-19T16:10:14.408Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-19T16:10:14.408Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-19T16:10:14.409Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:10:36.749Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:10:36.750Z"}
+{"level":"info","message":"Response recieved from Media service : 500","service":"api-gateway","timestamp":"2025-06-19T16:10:36.792Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:10:49.195Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:10:49.196Z"}
+{"level":"error","message":"Proxy error: write ECONNRESET","service":"api-gateway","timestamp":"2025-06-19T16:10:49.251Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:13:59.996Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:13:59.997Z"}
+{"level":"error","message":"Proxy error: write ECONNRESET","service":"api-gateway","timestamp":"2025-06-19T16:14:00.044Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:14:59.628Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:14:59.628Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-06-19T16:14:59.636Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:16:59.024Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:16:59.026Z"}
+{"level":"info","message":"Response recieved from Media service : 500","service":"api-gateway","timestamp":"2025-06-19T16:16:59.068Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:19:52.784Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:19:52.785Z"}
+{"level":"info","message":"Response recieved from Media service : 500","service":"api-gateway","timestamp":"2025-06-19T16:19:56.799Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-19T16:23:16.915Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-19T16:23:16.916Z"}
+{"level":"info","message":"Response recieved from Media service : 201","service":"api-gateway","timestamp":"2025-06-19T16:23:21.299Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-19T16:29:12.116Z"}
+{"level":"info","message":"Request body, {\"email\":\"dialga@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-19T16:29:12.117Z"}
+{"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-19T16:29:12.459Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-19T16:29:53.329Z"}
+{"level":"info","message":"Request body, {\"content\":\"First post\",\"mediaIds\":[\"iu2pnrjrxbkh8sx7mv2w\"],\"hashtags\":[\"#hurray\"]}","service":"api-gateway","timestamp":"2025-06-19T16:29:53.333Z"}
+{"level":"info","message":"Response recieved from Post-Service: 201","service":"api-gateway","timestamp":"2025-06-19T16:29:53.489Z"}
+
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-20T07:07:31.038Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-20T07:07:31.043Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-20T07:07:31.044Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-20T07:07:31.044Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-20T07:07:31.045Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-20T07:09:19.015Z"}
+{"level":"info","message":"Request body, {\"email\":\"dialga@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-20T07:09:19.016Z"}
+{"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-20T07:09:19.457Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T07:11:15.530Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T07:11:15.532Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T07:11:15.631Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T07:14:06.685Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T07:14:06.687Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-06-20T07:14:06.692Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T07:14:15.706Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T07:14:15.707Z"}
+{"level":"info","message":"Response recieved from Media service : 201","service":"api-gateway","timestamp":"2025-06-20T07:14:19.907Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T07:14:27.197Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T07:14:27.198Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T07:14:27.291Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-20T12:21:46.172Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-20T12:21:46.175Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-20T12:21:46.175Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-20T12:21:46.176Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-20T12:21:46.176Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-20T12:39:40.857Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-20T12:39:40.860Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-20T12:39:40.861Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-20T12:39:40.861Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-20T12:39:40.862Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-20T12:48:01.923Z"}
+{"level":"info","message":"Request body, {\"email\":\"dialga@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-20T12:48:01.923Z"}
+{"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-20T12:48:02.602Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T12:48:46.825Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T12:48:46.826Z"}
+{"level":"info","message":"Response recieved from Media service : 201","service":"api-gateway","timestamp":"2025-06-20T12:48:51.807Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T12:49:45.977Z"}
+{"level":"info","message":"Request body, {\"content\":\"Flutter & Node\",\"mediaIds\":[\"iu2pnrjrxbkh8sx7mv2w\",\"lyw7ewvhbcwe5y1j9qfw\"],\"hashtags\":[\"#tech\"]}","service":"api-gateway","timestamp":"2025-06-20T12:49:45.978Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-06-20T12:49:45.980Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T12:49:54.265Z"}
+{"level":"info","message":"Request body, {\"content\":\"Flutter & Node\",\"mediaIds\":[\"iu2pnrjrxbkh8sx7mv2w\",\"lyw7ewvhbcwe5y1j9qfw\"],\"hashtags\":[\"#tech\"]}","service":"api-gateway","timestamp":"2025-06-20T12:49:54.266Z"}
+{"level":"info","message":"Response recieved from Post-Service: 201","service":"api-gateway","timestamp":"2025-06-20T12:49:54.571Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T12:50:32.208Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T12:50:32.209Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T12:50:32.731Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T12:50:35.557Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T12:50:35.558Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T12:50:35.566Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T12:50:38.693Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T12:50:38.693Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T12:50:38.704Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T12:52:01.932Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T12:52:01.933Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T12:52:02.204Z"}
+{"level":"info","message":"Recieved DELETE request to /v1/posts/delete-post/685558f231aeadb76150ac6f","service":"api-gateway","timestamp":"2025-06-20T12:54:15.188Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T12:54:15.188Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T12:54:15.303Z"}
+{"level":"info","message":"API gateway is running on port : 3000","service":"api-gateway","timestamp":"2025-06-20T14:09:01.710Z"}
+{"level":"info","message":"Auth service is running on port : http://localhost:3001","service":"api-gateway","timestamp":"2025-06-20T14:09:01.713Z"}
+{"level":"info","message":"Post service is running on port : http://localhost:3002","service":"api-gateway","timestamp":"2025-06-20T14:09:01.714Z"}
+{"level":"info","message":"Media service is running on port : http://localhost:3003","service":"api-gateway","timestamp":"2025-06-20T14:09:01.714Z"}
+{"level":"info","message":"Redis URL : redis://localhost:6379","service":"api-gateway","timestamp":"2025-06-20T14:09:01.715Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T14:26:18.459Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:26:18.460Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-06-20T14:26:18.471Z"}
+{"level":"info","message":"Recieved POST request to /v1/auth/login","service":"api-gateway","timestamp":"2025-06-20T14:26:22.351Z"}
+{"level":"info","message":"Request body, {\"email\":\"dialga@gmail.com\",\"password\":\"12345678\"}","service":"api-gateway","timestamp":"2025-06-20T14:26:22.353Z"}
+{"level":"info","message":"Response recieved from Auth-service: 200","service":"api-gateway","timestamp":"2025-06-20T14:26:22.778Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T14:26:35.721Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:26:35.722Z"}
+{"level":"error","message":"Proxy error: ","service":"api-gateway","timestamp":"2025-06-20T14:26:35.729Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T14:27:13.242Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:27:13.243Z"}
+{"level":"info","message":"Response recieved from Media service : 201","service":"api-gateway","timestamp":"2025-06-20T14:27:21.413Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T14:28:24.723Z"}
+{"level":"info","message":"Request body, {\"content\":\"Flutter & Node\",\"mediaIds\":[\"hy4yuvgrjwxormulvgid\",\"lyw7ewvhbcwe5y1j9qfw\"],\"hashtags\":[\"#tech\"]}","service":"api-gateway","timestamp":"2025-06-20T14:28:24.725Z"}
+{"level":"error","message":"Authorization header missing","service":"api-gateway","timestamp":"2025-06-20T14:28:24.727Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T14:28:51.776Z"}
+{"level":"info","message":"Request body, {\"content\":\"Flutter & Node part 2\",\"mediaIds\":[\"hy4yuvgrjwxormulvgid\",\"lyw7ewvhbcwe5y1j9qfw\"],\"hashtags\":[\"#tech\"]}","service":"api-gateway","timestamp":"2025-06-20T14:28:51.777Z"}
+{"level":"info","message":"Response recieved from Post-Service: 201","service":"api-gateway","timestamp":"2025-06-20T14:28:52.037Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:28:57.356Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:28:57.358Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-06-20T14:28:57.362Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:29:03.211Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:29:03.213Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:29:04.131Z"}
+{"level":"info","message":"Recieved DELETE request to /v1/posts/delete-post/68557023f264eca3177e1045","service":"api-gateway","timestamp":"2025-06-20T14:29:20.218Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:29:20.221Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-06-20T14:29:20.226Z"}
+{"level":"info","message":"Recieved DELETE request to /v1/posts/delete-post/68557023f264eca3177e1045","service":"api-gateway","timestamp":"2025-06-20T14:29:26.195Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:29:26.195Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:29:26.355Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:29:41.493Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:29:41.494Z"}
+{"level":"warn","message":"Invalid token","service":"api-gateway","timestamp":"2025-06-20T14:29:41.497Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:29:47.679Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:29:47.681Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:29:47.779Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:29:58.847Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:29:58.848Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:29:59.481Z"}
+{"level":"info","message":"Recieved DELETE request to /v1/posts/delete-post/68557023f264eca3177e1045","service":"api-gateway","timestamp":"2025-06-20T14:32:16.351Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:32:16.352Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:32:16.519Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T14:32:52.493Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:32:52.494Z"}
+{"level":"info","message":"Response recieved from Media service : 201","service":"api-gateway","timestamp":"2025-06-20T14:32:58.090Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T14:33:28.440Z"}
+{"level":"info","message":"Request body, {\"content\":\"Delete test\",\"mediaIds\":[\"zj9hajt7zwrktcqizpfe\"],\"hashtags\":[\"#delete\"]}","service":"api-gateway","timestamp":"2025-06-20T14:33:28.441Z"}
+{"level":"info","message":"Response recieved from Post-Service: 201","service":"api-gateway","timestamp":"2025-06-20T14:33:28.684Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:33:32.435Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:33:32.437Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:33:32.824Z"}
+{"level":"info","message":"Recieved DELETE request to /v1/posts/delete-post/6855713806e98c6925d3494e","service":"api-gateway","timestamp":"2025-06-20T14:34:14.777Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:34:14.778Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:34:15.095Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:35:09.472Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:35:09.472Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:35:09.700Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:35:20.578Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:35:20.578Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:35:20.814Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T14:35:37.502Z"}
+{"level":"info","message":"Request body, {\"content\":\"Delete test\",\"mediaIds\":[\"zj9hajt7zwrktcqizpfe\"],\"hashtags\":[\"#delete\"]}","service":"api-gateway","timestamp":"2025-06-20T14:35:37.503Z"}
+{"level":"info","message":"Response recieved from Post-Service: 201","service":"api-gateway","timestamp":"2025-06-20T14:35:37.611Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:35:40.925Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:35:40.926Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:35:41.229Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T14:42:28.201Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:42:28.203Z"}
+{"level":"info","message":"Response recieved from Media service : 201","service":"api-gateway","timestamp":"2025-06-20T14:42:36.056Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T14:42:54.083Z"}
+{"level":"info","message":"Request body, {\"content\":\"Delete test\",\"mediaIds\":[\"6855735b4d93b8ba96752530\"],\"hashtags\":[\"#delete\"]}","service":"api-gateway","timestamp":"2025-06-20T14:42:54.084Z"}
+{"level":"info","message":"Response recieved from Post-Service: 201","service":"api-gateway","timestamp":"2025-06-20T14:42:54.175Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:43:14.331Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:43:14.334Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:43:14.783Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:44:26.766Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:44:26.767Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:44:27.002Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:45:04.377Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:45:04.377Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:45:04.484Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:48:33.276Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:48:33.277Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:48:33.462Z"}
+{"level":"info","message":"Recieved DELETE request to /v1/posts/delete-post/685571b906e98c6925d34955","service":"api-gateway","timestamp":"2025-06-20T14:49:58.832Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:49:58.832Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:49:59.099Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:51:54.466Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:51:54.467Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:51:54.718Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:53:39.437Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:53:39.438Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:53:39.691Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:53:44.548Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:53:44.550Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:53:44.752Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T14:54:13.041Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:54:13.043Z"}
+{"level":"info","message":"Response recieved from Media service : 201","service":"api-gateway","timestamp":"2025-06-20T14:54:19.407Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T14:54:36.533Z"}
+{"level":"info","message":"Request body, {\"content\":\"Delete test\",\"mediaIds\":[\"6855761bc9176c75801815fb\"],\"hashtags\":[\"#delete\"]}","service":"api-gateway","timestamp":"2025-06-20T14:54:36.534Z"}
+{"level":"info","message":"Response recieved from Post-Service: 201","service":"api-gateway","timestamp":"2025-06-20T14:54:36.915Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:54:40.195Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:54:40.195Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:54:40.850Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:54:49.609Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:54:49.611Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:54:49.749Z"}
+{"level":"info","message":"Recieved DELETE request to /v1/posts/delete-post/6855762c06e98c6925d34960","service":"api-gateway","timestamp":"2025-06-20T14:54:56.286Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:54:56.287Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:54:56.365Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:54:59.951Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:54:59.951Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:55:00.051Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:55:47.101Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:55:47.102Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:55:47.375Z"}
+{"level":"info","message":"Recieved POST request to /v1/media/upload","service":"api-gateway","timestamp":"2025-06-20T14:56:24.864Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:56:24.865Z"}
+{"level":"info","message":"Response recieved from Media service : 201","service":"api-gateway","timestamp":"2025-06-20T14:56:30.762Z"}
+{"level":"info","message":"Recieved POST request to /v1/posts/create-post","service":"api-gateway","timestamp":"2025-06-20T14:56:43.334Z"}
+{"level":"info","message":"Request body, {\"content\":\"Delete test\",\"mediaIds\":[\"6855769e9fae084ff49721db\"],\"hashtags\":[\"#delete\"]}","service":"api-gateway","timestamp":"2025-06-20T14:56:43.335Z"}
+{"level":"info","message":"Response recieved from Post-Service: 201","service":"api-gateway","timestamp":"2025-06-20T14:56:43.520Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:56:46.409Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:56:46.410Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:56:46.743Z"}
+{"level":"info","message":"Recieved DELETE request to /v1/posts/delete-post/685576ab06e98c6925d34967","service":"api-gateway","timestamp":"2025-06-20T14:57:15.311Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:57:15.312Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:57:15.624Z"}
+{"level":"info","message":"Recieved GET request to /v1/media/get","service":"api-gateway","timestamp":"2025-06-20T14:57:40.139Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:57:40.140Z"}
+{"level":"info","message":"Response recieved from Media service : 200","service":"api-gateway","timestamp":"2025-06-20T14:57:40.330Z"}
+{"level":"info","message":"Recieved GET request to /v1/posts/get-posts","service":"api-gateway","timestamp":"2025-06-20T14:57:44.243Z"}
+{"level":"info","message":"Request body, undefined","service":"api-gateway","timestamp":"2025-06-20T14:57:44.244Z"}
+{"level":"info","message":"Response recieved from Post-Service: 200","service":"api-gateway","timestamp":"2025-06-20T14:57:44.379Z"}

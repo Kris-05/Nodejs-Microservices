@@ -1,6 +1,12 @@
 import jwt from "jsonwebtoken";
 import { logger } from "../utils/logger.js";
 
+// 1. client sends req to /v1/posts with authorization header
+// 2. ValidateToken extracts the token from header & verifies
+// 3. If valid it sets the "req.user = user" (which contains the userId & otherinfo)
+// 4. in proxyReqOptDecorator, if srcReq.user exist then it sets "x-user-id = srcReq.user.userId"
+// 5. proxied req is sent to post service & can identofy the user by "x-user-id" header
+
 export const validateToken = (req, res, next) => {
   const authHeader = req.headers["authorization"];
   if (!authHeader) {
@@ -14,7 +20,7 @@ export const validateToken = (req, res, next) => {
     logger.warn(`Access attempt without valid token`);
     return res.status(401).json({
       success: false,
-      message: `Authentication required`,
+      message: `Access attempt without valid token! Authentication required`,
     });
   }
 
@@ -27,6 +33,6 @@ export const validateToken = (req, res, next) => {
       });
     }
     req.user = user;
+    next();
   });
-  next();
 };

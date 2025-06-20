@@ -11,7 +11,6 @@ import { logger } from "./utils/logger.js";
 import { errorHandler } from "./middleware/errorHandler.js";
 import { connectToDB } from "./connections/dbConn.js";
 import authRoutes from "./routes/authRoutes.js";
-// import { connectToRedis, redisClient } from "./connections/redisConn.js";
 
 dotenv.config();
 const app = express();

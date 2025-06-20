@@ -1,6 +1,7 @@
 import Post from "../models/post.js";
 import { inValidatePostCache } from "../utils/cacheValidation.js";
 import {logger} from "../utils/logger.js";
+import { publishEvent } from "../utils/rabbitmq.js";
 import { validatePost } from "../utils/validation.js";
 
 // create post
@@ -131,7 +132,7 @@ export const getPost = async (req, res) => {
     }
 
     // single post will be retrived hardly from user, so set to 1hr
-    await req.redisClient.setex(cacheKey, 300, JSON.stringify(result));
+    await req.redisClient.setex(cacheKey, 3600, JSON.stringify(result));
     res.status(200).json({
       success : true,
       fromCache : false,
@@ -168,6 +169,14 @@ export const deletePost = async (req, res) => {
       });
     }
 
+    // publish post.delete message to RabbitMQ
+    await publishEvent('post.deleted', {
+      postId : post._id.toString(),
+      userId : req.user.userId,
+      mediaIds : post.mediaIds
+    });
+
+    // delete the stored cache after deleting, else it shows false op
     await inValidatePostCache(req, req.params.id);
 
     res.status(200).json({

@@ -251,3 +251,5 @@
 {"level":"info","message":"Recieved POST request to /api/auth/login","service":"auth-service","timestamp":"2025-06-20T14:26:22.394Z"}
 {"level":"info","message":"Request body : {\"email\":\"dialga@gmail.com\",\"password\":\"12345678\"}","service":"auth-service","timestamp":"2025-06-20T14:26:22.395Z"}
 {"level":"info","message":"Login endpoint hit...","service":"auth-service","timestamp":"2025-06-20T14:26:22.406Z"}
+{"level":"info","message":"Auth-Service running on port 3001","service":"auth-service","timestamp":"2025-06-20T18:37:37.622Z"}
+{"level":"info","message":"Connected to mongoDB","service":"auth-service","timestamp":"2025-06-20T18:37:39.088Z"}

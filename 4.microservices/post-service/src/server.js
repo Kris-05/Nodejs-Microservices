@@ -3,6 +3,8 @@ import dotenv from "dotenv";
 import cors from "cors";
 import helmet from "helmet";
 import Redis from "ioredis";
+import { rateLimit } from "express-rate-limit";
+import { RedisStore } from "rate-limit-redis";
 
 import { logger } from "./utils/logger.js";
 import { errorHandler } from "./middlewares/errorHandler.js";
@@ -30,12 +32,32 @@ app.use((req, res, next) => {
 });
 
 // rate limiters for posting, likes, dislikes
+const sensitiveLimiter = rateLimit({
+  windowMs : 15 * 60 * 1000,
+  max : 20,
+  standardHeaders : true,
+  legacyHeaders : false,
+  handler : (req, res) => {
+    logger.warn(`Sensitive endpoint rate limit exceeded for IP: ${req.ip}`);
+    res.status(429).json({ 
+      success: false,
+      message: "Too many requests. Try again later."
+    });
+  },
+  store : new RedisStore({
+    sendCommand : (...args) => redisClient.call(...args),
+  })
+});
+app.use("/api/posts/create-post", sensitiveLimiter);
+app.use("/api/posts/delete-post", sensitiveLimiter);
+app.use("/api/posts/:id/like", sensitiveLimiter);
+app.use("/api/posts/:id/dislike", sensitiveLimiter);
 
 // Routes -> pass redisClient to the routes
 app.use("/api/posts", (req, res, next) => {
-    req.redisClient = redisClient;
-    next();
-  }, postRoutes);
+  req.redisClient = redisClient;
+  next();
+}, postRoutes);
 
 // Error handler
 app.use(errorHandler);

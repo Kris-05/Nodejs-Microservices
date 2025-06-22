@@ -29,10 +29,11 @@ app.use((req, res, next) => {
   next();
 });
 
-// rate limiting for IP based sensitive endpoints
-
-// routes
-app.use('/api/search', searchRoute);
+// redis cache for routes
+app.use('/api/search', (req, res, next) => {
+  req.redisClient = redisClient;
+  next();
+}, searchRoute);
 
 // error handler
 app.use(errorHandler);
@@ -43,8 +44,8 @@ async function startServer(){
     await connectRabbitMQ();
 
     // consume / subscribe to the event
-    await consumeEvent('post.created', handlePostCreated);
-    await consumeEvent('post.deleted', handlePostDeleted);
+    await consumeEvent('post.created', (event) => handlePostCreated(event, redisClient));
+    await consumeEvent('post.deleted', (event) => handlePostDeleted(event, redisClient));
 
     app.listen(PORT, () => {
       logger.info(`Search-Service running on port ${PORT}`)

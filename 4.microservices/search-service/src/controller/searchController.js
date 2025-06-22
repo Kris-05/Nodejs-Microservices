@@ -12,6 +12,18 @@ export const searchPost = async (req, res) => {
       });
     }
 
+    // get from the redis cache
+    const cacheKey = `search:${query.trim().toLowerCase()}`;
+    const cachedResults = await req.redisClient.get(cacheKey);
+
+    if(cachedResults){
+      return res.status(200).json({
+        success : true,
+        fromCache : true,
+        data : JSON.parse(cachedResults)
+      });
+    }
+
     const results = await Search.find(
       { $text : { $search : query } },
       { score : { $meta : 'textScore' } }
@@ -24,9 +36,13 @@ export const searchPost = async (req, res) => {
       });
     }
 
+    // store them to the cache for future retrival
+    await req.redisClient.setex(cacheKey, 300, JSON.stringify(results));
+
     logger.info(`Search results count: ${results.length}`);
     res.status(200).json({
       success : true,
+      fromCache : false,
       count : results.length,
       data : results
     });

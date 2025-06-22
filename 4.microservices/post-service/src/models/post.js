@@ -71,7 +71,6 @@ postSchema.statics.findByHashtag = async function (hashtag, startIndex, limit) {
 };
 
 // Indexes for faster queries
-postSchema.index({ content: "text" });
 postSchema.index({ hashtags: 1 }); // For hashtag-based searches
 postSchema.index({ likeCount: -1 }); // For sorting by popularity
 

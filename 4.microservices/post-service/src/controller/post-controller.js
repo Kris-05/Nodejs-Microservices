@@ -47,6 +47,14 @@ export const createPost = async (req, res) => {
     await newPost.save();
     await inValidatePostCache(req, newPost._id.toString());
 
+    // publish post.created message to RabbitMQ
+    await publishEvent("post.created", {
+      postId : newPost._id.toString(),
+      userId : newPost.user.toString(),
+      content : newPost.content.toString(),
+      createdAt : newPost.createdAt, 
+    });
+
     logger.info("Post created successfully", newPost);
     res.status(201).json({
       success : true,

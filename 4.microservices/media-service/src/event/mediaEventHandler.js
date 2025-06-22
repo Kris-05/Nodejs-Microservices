@@ -4,8 +4,7 @@ import { deleteMediaFromCloudinary } from "../utils/cloudinary.js";
 import { logger } from "../utils/logger.js";
 
 export const handlePostDeleted = async(event) => {
-  console.log(event, "... event items ...");  
-
+  // console.log(event, "... event items ...");  
   const { postId, mediaIds } = event;
   try {
     // Filter only valid ObjectIds

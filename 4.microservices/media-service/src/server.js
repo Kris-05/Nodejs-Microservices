@@ -2,7 +2,10 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import helmet from "helmet";
-
+import { rateLimit } from "express-rate-limit";
+import { RedisStore } from "rate-limit-redis";
+import Redis from "ioredis";
+ 
 import { connectToDB } from "./connection/dbConn.js";
 import { logger } from "./utils/logger.js";
 import { errorHandler } from "./middlewares/errorHandler.js"
@@ -17,6 +20,7 @@ const PORT = process.env.PORT || 3003;
 
 // connect to DB
 connectToDB();
+const redisClient = new Redis(process.env.REDIS_URL);
 
 // middlewares
 app.use(helmet());
@@ -29,6 +33,23 @@ app.use((req, res, next) => {
 });
 
 // rate limiters for uploading
+const sensitiveLimiter = rateLimit({
+  windowMs : 15 * 60 * 1000,
+  max : 15,
+  standardHeaders : true,
+  legacyHeaders : false,
+  handler: (req, res) => {
+    logger.warn(`Upload limit exceeded for ${req.ip}`);
+    res.status(429).json({ 
+      success: false,
+      message: "Too many uploads. Try again later."
+    });
+  },
+  store : new RedisStore({
+    sendCommand : (...args) => redisClient.call(...args),
+  })
+});
+app.use('/api/media/upload', sensitiveLimiter);
 
 // Routes
 app.use('/api/media', mediaRoutes);
